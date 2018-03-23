@@ -8,6 +8,6 @@ name_hash.reduce do |k, v|
     v.first
   elsif k.last < v.last
     k.first
-  else nil
+  else name_hash = {}
     nil
 end
